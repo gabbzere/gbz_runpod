@@ -9,18 +9,6 @@ wget https://github.com/gabbzere/gbz_runpod/raw/main/install-comfyui-venv_v1.sh 
 chmod +x install-comfyui-venv-linux.sh
 ./install-comfyui-venv-linux.sh
 
-# -----------------------------
-# PIN ComfyUI + Manager versions
-# -----------------------------
-echo "Pinning ComfyUI to v0.3.65..."
-cd /workspace/ComfyUI
-git fetch --tags
-git checkout v0.3.65
-
-echo "Pinning ComfyUI-Manager to v3.37..."
-cd /workspace/ComfyUI/custom_nodes/ComfyUI-Manager
-git fetch --tags
-git checkout v3.37
 
 # Configure network access (--listen)
 
