@@ -5,7 +5,7 @@ cd /workspace
 
 # 1. Install ComfyUI
 echo "Installing ComfyUI and ComfyUI Manager..."
-wget https://github.com/ltdrdata/ComfyUI-Manager/raw/main/scripts/install-comfyui-venv-linux.sh -O install-comfyui-venv-linux.sh
+wget https://github.com/gabbzere/gbz_runpod/raw/main/install-comfyui-venv_v1.sh -O install-comfyui-venv-linux.sh
 chmod +x install-comfyui-venv-linux.sh
 ./install-comfyui-venv-linux.sh
 
