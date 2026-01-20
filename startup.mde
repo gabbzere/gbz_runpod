@@ -1,0 +1,5 @@
+bash -c '[ -d "/workspace/ComfyUI" ] && ((cd /workspace && /workspace/run_gpu.sh) & /start.sh) || (cd /workspace && wget https://github.com/gabbzere/gbz_runpod/raw/main/start_v1.sh -O install_script.sh && chmod +x install_script.sh && ./install_script.sh)'
+
+
+dont forget to add HF token as env var during runpod setup
+HF_TOKEN="${HF_TOKEN:-your_default_token_here}"
